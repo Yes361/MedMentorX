@@ -14,10 +14,10 @@ interface ILesson {
 
 
 export async function CourseService() {
-    const UnitRepository = new Repository<IUnit>('units', 'learning-resources')
-    const LessonRepository = new Repository<ILesson>('lessons', 'learning-resources')
+    const UnitRepository = new Repository<IUnit>('units', 'HOSA-APP')
+    const LessonRepository = new Repository<ILesson>('lessons', 'HOSA-APP')
 
-    return (
-        // async 
-    )
+    // return (
+    //     // async 
+    // )
 }

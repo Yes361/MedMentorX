@@ -7,6 +7,7 @@ MedMentorX is a web-based platform designed to provide users with accessible and
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
+- [MongoDB](#mongoDB)
 - [Future Improvements](#future-improvements)
 
 ---
@@ -52,6 +53,10 @@ MedMentorX is a web-based platform designed to provide users with accessible and
    ```
 
    The application should be accessible at `http://localhost:3000`.
+
+### mongoDB
+
+- **Requirements** You'll need a *HOSA-APP* database
 
 ### Future Improvements
 

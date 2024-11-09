@@ -41,7 +41,7 @@ export async function getFlashCardByID(id: string) {
 
 export async function ListCourseUnits() {
     return await client
-        .db('learning-resources')
+        .db('HOSA-APP')
         .collection('units')
         .find({})
         .toArray()
@@ -49,7 +49,7 @@ export async function ListCourseUnits() {
 
 export async function getLessonsByUnit(id: any) {
     return await client
-        .db('learning-resources')
+        .db('HOSA-APP')
         .collection('lessons')
         .find({ unitId: id })
         .toArray()
@@ -59,7 +59,7 @@ export async function getLessonsByUnitID(id: any) {
     const unitId = await getUnitByID(id)
 
     return await client
-        .db('learning-resources')
+        .db('HOSA-APP')
         .collection('lessons')
         .find({ unitId: unitId!.unitID })
         .toArray()
@@ -67,14 +67,14 @@ export async function getLessonsByUnitID(id: any) {
 
 export async function getUnitByID(id: string) {
     return await client
-        .db('learning-resources')
+        .db('HOSA-APP')
         .collection('units')
         .findOne({ _id: new ObjectId(id) })
 }
 
 export async function getLessonByID(id: string) {
     return await client
-        .db('learning-resources')
+        .db('HOSA-APP')
         .collection('lessons')
         .findOne({ _id: new ObjectId(id) })
 }
