@@ -60,6 +60,6 @@ MedMentorX is a web-based platform designed to provide users with accessible and
 
 ### Future Improvements
 
-- **User Progress Tracking**: Enable users to track progress within each course.
+- **User Progress Tracking**: Enable users to track progress within each course and flashcards
 - **Additional Health Resources**: Expand courses and lessons.
 - **Enhanced UI**: Improve styling for better UX, adding animations and responsive design.

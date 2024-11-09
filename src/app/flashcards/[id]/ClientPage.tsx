@@ -30,6 +30,9 @@ export default function ClientApp({ data }: { data: any }) {
   const nextQuestion = () => {
     setSelectedAnswer(null)
     setIsCorrect(null)
+
+    if (currentQuestionIndex + 1 >= data.Questions.length)
+      setScore(0)
     setCurrentQuestionIndex((prevIndex) => (prevIndex + 1) % data.Questions.length)
   }
 
