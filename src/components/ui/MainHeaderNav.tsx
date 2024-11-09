@@ -36,7 +36,7 @@ export default function MainHeaderNav() {
           </NavbarItem>
           <NavbarItem>
             <Link color="foreground" href="/flashcards">
-              Flashcards
+              Quizzes
             </Link>
           </NavbarItem>
         </NavbarContent>

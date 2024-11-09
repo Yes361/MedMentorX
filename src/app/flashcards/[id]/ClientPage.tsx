@@ -38,8 +38,8 @@ export default function ClientApp({ data }: { data: any }) {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-blue-50 p-4">
-      <h1 className="text-2xl font-bold mb-4">Flashcards Quiz</h1>
-      <p className="text-gray-600">Flashcard ID: {params.id}</p>
+      <h1 className="text-2xl font-bold mb-4">{data?.title}</h1>
+      <p className="text-gray-600">Quiz ID: {params.id}</p>
       <p>{score} / {data.Questions.length}</p>
 
       <div className="w-full max-w-md bg-white p-6 rounded-lg shadow-md mt-4">

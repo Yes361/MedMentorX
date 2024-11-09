@@ -32,7 +32,7 @@ export default function App() {
     return (
       <div className="container mx-auto px-8 py-10 max-w-3xl">
         {/* Title and Search Input */}
-        <h1 className="text-3xl font-bold text-center mb-6">Search Flashcards</h1>
+        <h1 className="text-3xl font-bold text-center mb-6">Search Quizzes</h1>
         
         <div className="flex items-center justify-center mb-8">
           <Input
