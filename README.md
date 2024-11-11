@@ -30,7 +30,7 @@ MedMentorX is a web-based platform designed to provide users with accessible and
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/medicourse.git
+   git clone https://github.com/Yes361/MedMentorX.git
    cd medicourse
    ```
 
